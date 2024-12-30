@@ -1,0 +1,40 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/testimonial-carousel",
+	"version": "0.1.0",
+	"title": "Testimonial Carousel",
+	"category": "widgets",
+	"icon": "format-quote",
+	"description": "Know what the users think about the site.",
+	"example": {},
+	"supports": {
+		"html": false,
+		"align": true,
+		"anchor": true,
+		"color": {
+			"background": true,
+			"text": true
+		},
+		"customClassName": true,
+		"reusable": true
+	},
+	"attributes": {
+		"carouselGroup": { "type": "string", "default": "" },
+		"carouselDesign": { "type": "string", "default": "simple" },
+		"titleColor": { "type": "string", "default": "#000000" },
+		"contentColor": { "type": "string", "default": "#333333" },
+		"starColor": { "type": "string", "default": "#FFD700" },
+		"gradientColor1": { "type": "string", "default": "#6a11cb" },
+		"gradientColor2": { "type": "string", "default": "#2575fc" },
+		"solidBgColor": { "type": "string", "default": "#f3f4f6" },
+		"glassOpacity": { "type": "number", "default": 0.7 },
+		"readMoreColor": { "type": "string", "default": "#007cba" }
+	},
+	"textdomain": "testimonial-carousel-plugin",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}

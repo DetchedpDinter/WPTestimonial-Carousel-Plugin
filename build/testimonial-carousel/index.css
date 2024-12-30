@@ -1,0 +1,109 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/testimonial-carousel/editor.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+.testimonial-carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.testimonial-card {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  align-items: flex-start;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.testimonial-card-left {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 40px;
+}
+
+.testimonial-card-right {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: calc(100% - 120px);
+}
+
+.testimonial-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.testimonial-rating-container {
+  margin-top: 10px;
+}
+
+.filled-star {
+  color: gold;
+  font-size: 24px;
+}
+
+.empty-star {
+  color: lightgray;
+  font-size: 24px;
+}
+
+.testimonial-description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  max-height: 6em;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.testimonial-description.expanded {
+  max-height: none;
+}
+
+.read-more {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #007cba;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Arrow Button Styling */
+.arrow-button {
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+  background: none;
+  border: none;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.left-arrow {
+  left: -30px;
+}
+
+.right-arrow {
+  right: -30px;
+}
+
+/*# sourceMappingURL=index.css.map*/

@@ -1,0 +1,110 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/testimonial-feedback-form/editor.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+/* General Block Styling */
+.testimonial-form {
+  background-color: #e1c2e1; /* Light pink background for the form */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333; /* Text color */
+  position: relative; /* For stripes */
+  background: repeating-linear-gradient(-90deg, #ffffff 0%, #ffffff 10px, #F5A9D2 10px, #F5A9D2 20px); /* Pink and white vertical stripes */
+}
+
+/* Field Styling */
+.testimonial-form .components-text-control,
+.testimonial-form .components-textarea-control {
+  background-color: #fff; /* White background for the text fields */
+  border: 2px solid #d4006f; /* Pink border */
+  border-radius: 4px; /* Slightly rounded corners */
+  padding: 12px;
+  margin-bottom: 20px;
+  color: #333; /* Dark text inside input fields */
+  font-size: 14px;
+  font-weight: 500;
+  transition: border-color 0.2s;
+}
+.testimonial-form .components-text-control:focus,
+.testimonial-form .components-textarea-control:focus {
+  border-color: #a8003c; /* Darker pink when focused */
+  outline: none;
+}
+
+/* Rating Stars */
+.testimonial-form .rating-stars {
+  display: flex;
+  justify-content: center; /* Center the stars */
+  font-size: 40px; /* Make stars larger */
+  cursor: pointer;
+  margin-bottom: 20px; /* Space between stars and drag area */
+}
+
+.testimonial-form .rating-stars span {
+  color: #ddd;
+  transition: color 0.2s, text-shadow 0.3s, transform 0.3s; /* Smooth transitions */
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2); /* Soft shadow to make stars stand out */
+}
+
+.testimonial-form .rating-stars span:hover,
+.testimonial-form .rating-stars span.selected {
+  color: #FFD700; /* Gold color for selected stars */
+  text-shadow: 0px 0px 10px rgba(255, 215, 0, 0.7); /* Glowing effect on hover */
+  transform: scale(1.2); /* Slightly enlarge the stars on hover */
+}
+
+/* Drag and Drop Area */
+.testimonial-form .drag-and-drop-area {
+  border: 2px dashed #d4006f; /* Pink border */
+  background-color: #fff; /* White background */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; /* Dark text inside drag-and-drop area */
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.testimonial-form .drag-and-drop-area p {
+  color: #333; /* Ensure text is dark inside the drag-and-drop area */
+}
+
+/* Buttons Styling */
+.testimonial-form .add-picture-btn,
+.testimonial-form .submit-btn {
+  display: flex; /* Flexbox layout */
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+  width: 48%; /* Width for both buttons */
+  padding: 12px 0;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 0px; /* Square corners for buttons */
+  color: #fff; /* White text color */
+  transition: background-color 0.3s;
+  margin-top: 20px; /* Space between buttons */
+}
+
+/* Add Picture Button Style */
+.testimonial-form .add-picture-btn {
+  background-color: #FFD700; /* Contrasting yellow for add picture button */
+}
+
+/* Submit Button Style */
+.testimonial-form .submit-btn {
+  background-color: #00bfae; /* Contrasting teal color for submit button */
+}
+
+/* Button Hover Effects */
+.testimonial-form .add-picture-btn:hover {
+  background-color: #e6c400; /* Darker yellow on hover for add picture */
+  color: #000; /* Darker text color */
+}
+
+.testimonial-form .submit-btn:hover {
+  background-color: #009e8a; /* Darker teal on hover for submit */
+  color: #000; /* Darker text color */
+}
